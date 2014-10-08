@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306F34E419E5DA2A00492CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306F34E319E5DA2A00492CC2 /* main.m */; };
+		306F34E719E5DA2A00492CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306F34E619E5DA2A00492CC2 /* AppDelegate.m */; };
+		306F34EA19E5DA2B00492CC2 /* SendHubMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 306F34E819E5DA2B00492CC2 /* SendHubMessenger.xcdatamodeld */; };
+		306F34ED19E5DA2B00492CC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306F34EC19E5DA2B00492CC2 /* ViewController.m */; };
+		306F34F019E5DA2B00492CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306F34EE19E5DA2B00492CC2 /* Main.storyboard */; };
+		306F34F219E5DA2B00492CC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306F34F119E5DA2B00492CC2 /* Images.xcassets */; };
+		306F34F519E5DA2B00492CC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306F34F319E5DA2B00492CC2 /* LaunchScreen.xib */; };
+		306F350119E5DA2B00492CC2 /* SendHubMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 306F350019E5DA2B00492CC2 /* SendHubMessengerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306F34FB19E5DA2B00492CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306F34D619E5DA2A00492CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306F34DD19E5DA2A00492CC2;
+			remoteInfo = SendHubMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306F34DE19E5DA2A00492CC2 /* SendHubMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendHubMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306F34E219E5DA2A00492CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306F34E319E5DA2A00492CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306F34E519E5DA2A00492CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		306F34E619E5DA2A00492CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		306F34E919E5DA2B00492CC2 /* SendHubMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SendHubMessenger.xcdatamodel; sourceTree = "<group>"; };
+		306F34EB19E5DA2B00492CC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		306F34EC19E5DA2B00492CC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		306F34EF19E5DA2B00492CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306F34F119E5DA2B00492CC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		306F34F419E5DA2B00492CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		306F34FA19E5DA2B00492CC2 /* SendHubMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendHubMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306F34FF19E5DA2B00492CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306F350019E5DA2B00492CC2 /* SendHubMessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendHubMessengerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306F34DB19E5DA2A00492CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306F34F719E5DA2B00492CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306F34D519E5DA2A00492CC2 = {
+			isa = PBXGroup;
+			children = (
+				306F34E019E5DA2A00492CC2 /* SendHubMessenger */,
+				306F34FD19E5DA2B00492CC2 /* SendHubMessengerTests */,
+				306F34DF19E5DA2A00492CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306F34DF19E5DA2A00492CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306F34DE19E5DA2A00492CC2 /* SendHubMessenger.app */,
+				306F34FA19E5DA2B00492CC2 /* SendHubMessengerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306F34E019E5DA2A00492CC2 /* SendHubMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				306F34E519E5DA2A00492CC2 /* AppDelegate.h */,
+				306F34E619E5DA2A00492CC2 /* AppDelegate.m */,
+				306F34EB19E5DA2B00492CC2 /* ViewController.h */,
+				306F34EC19E5DA2B00492CC2 /* ViewController.m */,
+				306F34EE19E5DA2B00492CC2 /* Main.storyboard */,
+				306F34F119E5DA2B00492CC2 /* Images.xcassets */,
+				306F34F319E5DA2B00492CC2 /* LaunchScreen.xib */,
+				306F34E819E5DA2B00492CC2 /* SendHubMessenger.xcdatamodeld */,
+				306F34E119E5DA2A00492CC2 /* Supporting Files */,
+			);
+			path = SendHubMessenger;
+			sourceTree = "<group>";
+		};
+		306F34E119E5DA2A00492CC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306F34E219E5DA2A00492CC2 /* Info.plist */,
+				306F34E319E5DA2A00492CC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		306F34FD19E5DA2B00492CC2 /* SendHubMessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				306F350019E5DA2B00492CC2 /* SendHubMessengerTests.m */,
+				306F34FE19E5DA2B00492CC2 /* Supporting Files */,
+			);
+			path = SendHubMessengerTests;
+			sourceTree = "<group>";
+		};
+		306F34FE19E5DA2B00492CC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306F34FF19E5DA2B00492CC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306F34DD19E5DA2A00492CC2 /* SendHubMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306F350419E5DA2B00492CC2 /* Build configuration list for PBXNativeTarget "SendHubMessenger" */;
+			buildPhases = (
+				306F34DA19E5DA2A00492CC2 /* Sources */,
+				306F34DB19E5DA2A00492CC2 /* Frameworks */,
+				306F34DC19E5DA2A00492CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendHubMessenger;
+			productName = SendHubMessenger;
+			productReference = 306F34DE19E5DA2A00492CC2 /* SendHubMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306F34F919E5DA2B00492CC2 /* SendHubMessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306F350719E5DA2B00492CC2 /* Build configuration list for PBXNativeTarget "SendHubMessengerTests" */;
+			buildPhases = (
+				306F34F619E5DA2B00492CC2 /* Sources */,
+				306F34F719E5DA2B00492CC2 /* Frameworks */,
+				306F34F819E5DA2B00492CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306F34FC19E5DA2B00492CC2 /* PBXTargetDependency */,
+			);
+			name = SendHubMessengerTests;
+			productName = SendHubMessengerTests;
+			productReference = 306F34FA19E5DA2B00492CC2 /* SendHubMessengerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306F34D619E5DA2A00492CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Maxim Campolo";
+				TargetAttributes = {
+					306F34DD19E5DA2A00492CC2 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					306F34F919E5DA2B00492CC2 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 306F34DD19E5DA2A00492CC2;
+					};
+				};
+			};
+			buildConfigurationList = 306F34D919E5DA2A00492CC2 /* Build configuration list for PBXProject "SendHubMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306F34D519E5DA2A00492CC2;
+			productRefGroup = 306F34DF19E5DA2A00492CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306F34DD19E5DA2A00492CC2 /* SendHubMessenger */,
+				306F34F919E5DA2B00492CC2 /* SendHubMessengerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306F34DC19E5DA2A00492CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306F34F019E5DA2B00492CC2 /* Main.storyboard in Resources */,
+				306F34F519E5DA2B00492CC2 /* LaunchScreen.xib in Resources */,
+				306F34F219E5DA2B00492CC2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306F34F819E5DA2B00492CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306F34DA19E5DA2A00492CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306F34E719E5DA2A00492CC2 /* AppDelegate.m in Sources */,
+				306F34E419E5DA2A00492CC2 /* main.m in Sources */,
+				306F34ED19E5DA2B00492CC2 /* ViewController.m in Sources */,
+				306F34EA19E5DA2B00492CC2 /* SendHubMessenger.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306F34F619E5DA2B00492CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306F350119E5DA2B00492CC2 /* SendHubMessengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306F34FC19E5DA2B00492CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306F34DD19E5DA2A00492CC2 /* SendHubMessenger */;
+			targetProxy = 306F34FB19E5DA2B00492CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		306F34EE19E5DA2B00492CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306F34EF19E5DA2B00492CC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306F34F319E5DA2B00492CC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306F34F419E5DA2B00492CC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306F350219E5DA2B00492CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		306F350319E5DA2B00492CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306F350519E5DA2B00492CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SendHubMessenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		306F350619E5DA2B00492CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SendHubMessenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		306F350819E5DA2B00492CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendHubMessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendHubMessenger.app/SendHubMessenger";
+			};
+			name = Debug;
+		};
+		306F350919E5DA2B00492CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SendHubMessengerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendHubMessenger.app/SendHubMessenger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306F34D919E5DA2A00492CC2 /* Build configuration list for PBXProject "SendHubMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306F350219E5DA2B00492CC2 /* Debug */,
+				306F350319E5DA2B00492CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306F350419E5DA2B00492CC2 /* Build configuration list for PBXNativeTarget "SendHubMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306F350519E5DA2B00492CC2 /* Debug */,
+				306F350619E5DA2B00492CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		306F350719E5DA2B00492CC2 /* Build configuration list for PBXNativeTarget "SendHubMessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306F350819E5DA2B00492CC2 /* Debug */,
+				306F350919E5DA2B00492CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		306F34E819E5DA2B00492CC2 /* SendHubMessenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				306F34E919E5DA2B00492CC2 /* SendHubMessenger.xcdatamodel */,
+			);
+			currentVersion = 306F34E919E5DA2B00492CC2 /* SendHubMessenger.xcdatamodel */;
+			path = SendHubMessenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 306F34D619E5DA2A00492CC2 /* Project object */;
+}
