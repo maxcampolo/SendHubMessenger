@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ContactsTableViewController.h
 //  SendHubMessenger
 //
 //  Created by Max Campolo on 10/8/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ContactsTableViewController : UITableViewController
 
 @end
-
